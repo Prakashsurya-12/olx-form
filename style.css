@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 30px;
+    margin-left: 600px;
+}
+
+.container {
+    height: 15vh;
+    width: 90%;
+    border: 1px solid black;
+    margin-left: 80px;
+
+}
+
+.container h1 {
+    padding: 14 px;
+}
+
+.container .container-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-menu h3 {
+    padding: 20px;
+}
+
+.container-menu h2 {
+    margin-left: -450px;
+    margin-top: 20px;
+}
+
+.some {
+    height: 200vh;
+    width: 90%;
+    margin-left: 80px;
+    border: 1px solid black;
+}
+
+.include {
+    padding: 20px;
+}
+
+.some .type {
+    margin-left: 20px;
+}
+
+.mobile {
+    margin-left: 20px;
+    height: 4vh;
+    width: 6%;
+}
+
+.tablet {
+    height: 4vh;
+    width: 6%;
+}
+
+.title {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+#username {
+    margin-left: 20px;
+}
+
+.any {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.any-menu p {
+    margin-left: 400px;
+}
+
+
+.discription {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+#name {
+    margin-left: 20px;
+}
+
+.dis {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text-menu p {
+    margin-left: 380px;
+}
+
+.container1 {
+    height: 15vh;
+    width: 97%;
+    border: 1px solid black;
+    margin-top: 40px;
+
+
+}
+
+.container1 {
+    padding: 20px;
+}
+
+.container-menu1 h3 {
+    margin-left: 20px;
+
+
+}
+
+#prc {
+    margin-left: 0px;
+}
+
+
+/**Capture box**/
+
+
+
+.upto {
+    margin-left: 20px;
+    padding: 15px;
+}
+
+.capture {
+    display: flex;
+
+    text-align: center;
+    margin-left: 2px;
+    padding-left: 20px;
+
+
+}
+
+.capture i {
+    margin-top: 30px;
+}
+
+.box {
+    border: 0.5px solid black;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    height: 10vh;
+    width: 6%;
+    padding: 2px;
+
+}
+
+.location {
+    margin-left: 20px;
+    padding: 20px;
+    height: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+.wrapper {
+    width: 300px;
+    margin: 20px;
+}
+
+.select-btn,
+.options li {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.select-btn {
+    border: 0.5px solid black;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 22px;
+    border-radius: 1px;
+    justify-content: space-between;
+}
+
+.select-btn i {
+    font-size: 30px;
+}
+
+.content {
+    
+    margin-top: 15px;
+    padding: 20px;
+    border: 0.5px solid black;
+    border-radius: 1px;
+}
+
+.wrapper .active .content {
+    display: block;
+}
+
+.content.search {
+    position: relative;
+}
+
+.search i {
+
+    margin-left: 5px;
+    color: #999;
+    font-size: 20px;
+    line-height: 53px;
+    position: absolute;
+
+}
+
+.search input {
+    height: 53px;
+    width: 32vh;
+    outline: none;
+    border-radius: 4px;
+    font-size: 17px;
+    padding: 0 2px 0 30px;
+    border: 1px solid #b3b3b3;
+
+}
+
+.content .options {
+    margin-top: 10px;
+    max-height: 150px;
+    overflow: auto;
+
+}
+
+.options::-webkit-scrollbar {
+    width: 7px;
+}
+
+.options::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 25px;
+}
+
+.options::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 25px;
+}
+
+.options li {
+    height: 50px;
+    padding: 0 13px;
+    font-size: 21px;
+    border-radius: 5px;
+
+}
+
+.options li:hover {
+    background: #f2f2f2;
+}
